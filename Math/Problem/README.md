@@ -1,11 +1,10 @@
+1.	Consider the second data set (File name: TestDemo1). Data consists of blood ferritin level (dependent variable) and age (measured in months, independent variable) for 400 children un- der the age of 3 years, where the children belong to two groups (200 children in each group).
 
-1.The first data set (File name: Demo1) consists of gene expression measurements of 5 genes from 150 women with a family history of breast cancer. The objective of the study is to compare the mean gene expression profile for 5 selected genes related to breast cancer. This will allow the researcher to identify genes that are co-expressed (expressed in the same way).
+    a.	Using graphs, examine the relationship between ferritin and age for both groups, use colour to distinguish children between the two groups (include the graph in your solutions). Do you think the relationship between ferritin and age are the same (or different) for the two groups of children?
 
-    a.	Write down the appropriate linear regression model that allows you to address the study objective. Give descriptions of what the dependent and independent variables are.
+    b.	Write down a unified regression model that allows you to model the relationship between ferritin and age for both groups in one single model. Perform the analysis in R and provide interpretation of all the regression coeﬀicients.
 
-    b.	Using the model you specified above, perform regression analysis in R. Provide estimates for the mean gene expression for all the five genes. Show how you get these estimates from the estimates of the regression coeﬀicients (show your calculations).
+    c.	Formulate the hypothesis of equal slopes and provide the appro- priate test statistic along with its distribution. Perform the test in R and provide the observed test statistic along with its p-values. Are you able to reject the hypothesis of equal slopes?
 
-    c.	Formulate the hypothesis of equal means (H0 :  µ1  =  µ2  = µ3 = µ4 = µ5) using the regression coeﬀicients and provide the appropriate test statistic along with its distribution.
-
-    d.	Use R to perform the test for the hypothesis in [c.] and provide the observed test statistic along with its p-value. Are you able to reject the hypothesis of equal means?
+    d.	Formulate the hypothesis (write down the hypothesis) of equal regression line for the two groups of children. Perform the test in R, provide the test statistic and the corresponding p-values. Are you able to reject the null hypothesis?
 
