@@ -1,11 +1,10 @@
+1.	Consider the data set provided in Demo1.csv and examine the R results with respect to the pair-wise mean differences in gene expression (i.e. µi − µj).
 
-1.The first data set (File name: Demo1) consists of gene expression measurements of 5 genes from 150 women with a family history of breast cancer. The objective of the study is to compare the mean gene expression profile for 5 selected genes related to breast cancer. This will allow the researcher to identify genes that are co-expressed (expressed in the same way).
+a.	Consider the hypothesis of H0 : µ4 = µ5 against the alternative H1  : µ4	µ5.	Provide the appropriate test statistic and the corresponding distribution. Provide the observed test statistic value and the corresponding p-values (from your R results).
 
-    a.	Write down the appropriate linear regression model that allows you to address the study objective. Give descriptions of what the dependent and independent variables are.
+b.	Consider now the hypothesis of H0 : µ1 = µ2 = µ3  against the alternative H1 : µi = µj for at least one pair. Formulate the equivalent general linear hypothesis using the regression coeﬀicients, specify the appropriate test statistic along with its distribution.
 
-    b.	Using the model you specified above, perform regression analysis in R. Provide estimates for the mean gene expression for all the five genes. Show how you get these estimates from the estimates of the regression coeﬀicients (show your calculations).
+c.	Using R, test the general linear hypothesis you specified in [b.], provide the error sum of squares for the restricted and full model along the corresponding degrees of freedom. Are you able to reject the null hypothesis? What is the observed test statistic and the corresponding p-value?
 
-    c.	Formulate the hypothesis of equal means (H0 :  µ1  =  µ2  = µ3 = µ4 = µ5) using the regression coeﬀicients and provide the appropriate test statistic along with its distribution.
-
-    d.	Use R to perform the test for the hypothesis in [c.] and provide the observed test statistic along with its p-value. Are you able to reject the hypothesis of equal means?
+d.	Based on your results in [a.] and [c.], what can you say in terms of the researchers objective? are there groups of genes that are expressed the same way? Specify.
 
